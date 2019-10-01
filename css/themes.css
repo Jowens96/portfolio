@@ -57,6 +57,10 @@ h6 {
   font-weight: bold;
 }
 
+.skip-links {
+  display: none;
+}
+
 ul {
   font-family: var(--font-primary);
   color: var(--color-accent);
