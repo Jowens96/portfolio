@@ -1,0 +1,17 @@
+title: "Sections"
+description: |
+  Sections of the website.
+
+patterns:
+  about:
+    title: "About Page"
+    description: |
+      Page that states my background and work capacity.
+  about:
+    title: "About Page"
+    description: |
+      Page that states my background and work capacity.
+  projectinfo:
+    title: "Project Info"
+    description: |
+      Information to display on the individual project pages.

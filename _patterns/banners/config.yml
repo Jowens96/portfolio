@@ -1,0 +1,13 @@
+title: "Banners"
+description: |
+  Banners to appear at top of pages. These two banners would appear interchangeably.
+
+patterns:
+  photobanner:
+    title: "Photo Banner"
+    description: |
+      Photo banners to be used on about page, or the individual project pages.
+  videobanner:
+    title: "Video Banner"
+    description: |
+      Video banners to be used on home page, or the individual project pages.
