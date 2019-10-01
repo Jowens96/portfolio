@@ -1,3 +1,22 @@
 permalink: pretty
 
 theme: jekyll_patternbot
+
+patternbot:
+  title: "Jenny Owens"
+  description: |
+    This is a pattern library for my portfolio website.
+  font_url: "https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap"
+  colors:
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "-color-primary-light"
+    rationales:
+      typefaces.primary: |
+        description
+      typefaces.secondary : |
+        description
+      colors.primary : |
+        description
+      colors.secondary : |
+        description
