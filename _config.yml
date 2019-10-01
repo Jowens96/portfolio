@@ -6,7 +6,7 @@ patternbot:
   title: "Jenny Owens"
   description: |
     This is a pattern library for my portfolio website.
-  font_url: "https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Merriweather:400,700|Pinyon+Script&display=swap"
   colors:
     accent: "--color-primary"
     patterns:
