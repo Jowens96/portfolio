@@ -6,17 +6,20 @@ patternbot:
   title: "Jenny Owens"
   description: |
     This is a pattern library for my portfolio website.
-  font_url: "https://fonts.googleapis.com/css?family=Merriweather:400,700|Pinyon+Script&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Pinyon+Script|Playfair+Display:400,700&display=swap"
   colors:
-    accent: "--color-primary"
+    background: "--color-secondary"
     patterns:
-      brand.logos: "-color-primary-light"
     rationales:
       typefaces.primary: |
-        description
+        Playfair Display is light, professial serif font with easy readibility.
       typefaces.secondary : |
-        description
+        Pinyon Script is a beautiful script font that conveys eloquence and works well for short pieces of text like titles.
       colors.primary : |
-        description
+        Black is the primary colour.
       colors.secondary : |
-        description
+        White is the secondary colour.
+      color.primary.light : |
+        Grey is the light colour.
+      color.accent : |
+        The accent colour is red.

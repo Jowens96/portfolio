@@ -1,0 +1,95 @@
+:root {
+  --colour-primary: #000000;
+  --color-primary-light: #949494;
+  --color-secondary: #fff;
+  --color-accent: #ff0011;
+  --font-primary: 'Playfair Display';
+  --font-secondary: 'Pinyon Script', cursive;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  color: var(--colour-primary);
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  color: var(--colour-primary);
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  color: var(--colour-primary);
+}
+
+h4 {
+  font-family: var(--font-secondary);
+  color: var(--colour-primary);
+}
+
+h5 {
+  font-family: var(--font-secondary);
+  color: var(--colour-primary);
+}
+
+h6 {
+  font-family: var(--font-secondary);
+  color: var(--colour-primary);
+}
+
+.skip-links {
+  display: none;
+}
+
+ul {
+  font-family: var(--font-primary);
+  color: var(--colour-primary);
+  list-style-type: none;
+}
+
+ol {
+  font-family: var(--font-primary);
+  color: var(--colour-primary);
+}
+
+li {
+  color: var(--colour-primary);
+}
+
+th {
+  color: var(--colour-primary);
+}
+
+tr {
+  color: var(--colour-primary);
+}
+
+dl {
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+nav > a {
+  font-family: var(--font-primary);
+  color: var(--colour-primary);
+  text-decoration: none;
+}
+
+a {
+  font-family: var(--font-primary);
+  text-decoration: none;
+  color: var(--colour-primary);
+}
+
+strong {
+  font-weight: bold;
+  color: var(--colour-primary);
+}
+
+footer {
+  color: var(--colour-primary);
+}
