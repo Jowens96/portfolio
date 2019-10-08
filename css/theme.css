@@ -98,3 +98,7 @@ footer {
   color: var(--color-secondary);
   text-decoration: none;
 }
+
+.nav-img {
+  float: right;
+}
