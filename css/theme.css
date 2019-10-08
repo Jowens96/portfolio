@@ -98,7 +98,3 @@ footer {
   color: var(--color-secondary);
   text-decoration: none;
 }
-
-.nav-li {
-  display: inline-block;
-}

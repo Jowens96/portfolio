@@ -1,14 +1,7 @@
-<html>
-<head>
-  <link rel="stylesheet" href="_patterns/nav/nav.css">
-</head>
-
-<nav class="nav-box island-1-2">
-  <ul class="push-0">
-    <li class="nav-li"><a href="/index/" class="nav-a">Home</a></li>
-    <li class="nav-li"><a href="/products/" class="nav-a">Projects</a></li>
-    <li class="nav-li"><a href="/check-out/" class="nav-a">About</a></li>
+<nav class="nav-box island-1-4">
+  <ul class="push-0 list-group-inline left">
+    <li class="nav-li gutter-1-2"><a href="/index/" class="nav-a milli {% if.page.highlight_nav == 'index' %}active{% endif %}">Home</a></li>
+    <li class="nav-li push-r-1-2"><a href="/projects/" class="nav-a milli {% if.page.highlight_nav == 'projects' %}active{% endif %}">Projects</a></li>
+    <li class="nav-li push-r-1-2"><a href="/about/" class="nav-a milli {% if.page.highlight_nav == 'about' %}active{% endif %}">About</a></li>
   </ul>
 </nav>
-
-</html>
