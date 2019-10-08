@@ -85,59 +85,19 @@ footer {
 
 /* Navigation */
 
-.nav-box {
-  background-color: var(--colour-primary);
-}
+  .nav-box {
+    background-color: var(--colour-primary);
+  }
 
-.nav-a {
-  color: var(--color-secondary);
-  text-decoration: none;
-}
+  .nav-a {
+    color: var(--color-secondary);
+    text-decoration: none;
+  }
 
-.nav-img {
-  float: right;
-}
+  .nav-img {
+    float: right;
+  }
 
-a:hover {
-  color: var(--color-accent);
-}
-
-.nav {
-  display: none;
-}
-
-/* This selected targets the `.nav` only when the checkbox is checked */
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-check {
-  /* Put the checkbox off the top of the screen */
-  position: absolute;
-  top: -3em;
-}
-
-.nav-label {
-  cursor: pointer;
-  font-size: 1.25rem;
-  width: 50px;
-  display: inline-block;
-}
-
-.nav-open,
-.nav-close {
-  display: block;
-  width: 100%
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
-}
+  a:hover {
+    color: var(--color-accent);
+  }
