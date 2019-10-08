@@ -79,12 +79,6 @@ nav > a {
   text-decoration: none;
 }
 
-a {
-  font-family: var(--font-primary);
-  text-decoration: none;
-  color: var(--colour-primary);
-}
-
 strong {
   font-weight: bold;
   color: var(--colour-primary);
@@ -92,4 +86,19 @@ strong {
 
 footer {
   color: var(--colour-primary);
+}
+
+/* Navigation */
+
+.nav-box {
+  background-color: var(--colour-primary);
+}
+
+.nav-a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.nav-li {
+  display: inline-block;
 }
