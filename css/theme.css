@@ -9,6 +9,7 @@
 
 html {
   font-family: var(--font-primary);
+  background-color: #000;
 }
 
 h1 {
@@ -73,12 +74,6 @@ dl {
   font-weight: bold;
 }
 
-nav > a {
-  font-family: var(--font-primary);
-  color: var(--colour-primary);
-  text-decoration: none;
-}
-
 strong {
   font-weight: bold;
   color: var(--colour-primary);
@@ -105,4 +100,44 @@ footer {
 
 a:hover {
   color: var(--color-accent);
+}
+
+.nav {
+  display: none;
+}
+
+/* This selected targets the `.nav` only when the checkbox is checked */
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  /* Put the checkbox off the top of the screen */
+  position: absolute;
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  width: 50px;
+  display: inline-block;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
