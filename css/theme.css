@@ -124,3 +124,9 @@ footer {
 .footerp {
   color: var(--color-secondary);
 }
+
+/* projects */
+
+.hiddenbox {
+  display: hidden;
+}
