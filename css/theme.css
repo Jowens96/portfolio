@@ -9,7 +9,6 @@
 
 html {
   font-family: var(--font-primary);
-  background-color: #000;
 }
 
 h1 {
@@ -101,3 +100,9 @@ footer {
   a:hover {
     color: var(--color-accent);
   }
+
+/* video banner */
+
+.embed--16by9 {
+  padding-top: 56.25%
+}
