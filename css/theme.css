@@ -83,3 +83,7 @@ footer {
 }
 
 /* h2 size is zetta */
+
+div > .icon {
+  background-color: var(--color-accent);
+}
