@@ -1,5 +1,14 @@
-/* projects */
-
 .hiddenbox {
   display: hidden;
+}
+
+.card {
+  text-decoration: none;
+  color: var(--colour-primary);
+  transition: all .2s ease-in-out;
+}
+
+.card:hover {
+  color: var(--colour-primary);
+  transform: scale(0.9);
 }
