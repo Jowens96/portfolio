@@ -5,13 +5,13 @@ patternbot:
   title: "Jenny Owens"
   description: |
     This is a pattern library for my portfolio website.
-  font_url: "https://fonts.googleapis.com/css?family=Pinyon+Script|Playfair+Display:400,700&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Pinyon+Script|Quattrocento:400,700&display=swap"
   colors:
     background: "--color-secondary"
     patterns:
     rationales:
       typefaces.primary: |
-        Playfair Display is light, professial serif font with easy readibility.
+        Quattrocento is a light, professial serif font with easy readibility.
       typefaces.secondary : |
         Pinyon Script is a beautiful script font that conveys eloquence and works well for short pieces of text like titles.
       colors.primary : |
