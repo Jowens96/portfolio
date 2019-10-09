@@ -1,0 +1,9 @@
+/* footer */
+
+footer {
+  background-color: var(--colour-primary);
+}
+
+.footerp {
+  color: var(--color-secondary);
+}
