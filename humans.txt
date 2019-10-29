@@ -1,0 +1,25 @@
+# humanstxt.org
+
+# TEAM
+
+Jenny Owens
+
+---
+
+# THANKS
+
+Thanks to Thomas for helping me build this website and to Aaron for extra support.
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+Atom
+
+## Hosting
+
+Netlify
+
+---

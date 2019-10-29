@@ -1,0 +1,6 @@
+# robotstxt.org
+
+Sitemap: https://jennyowens.ca/sitemap.xml
+
+User-Agent: *
+Disallow:
