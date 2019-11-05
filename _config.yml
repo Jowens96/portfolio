@@ -9,16 +9,19 @@ patternbot:
   colors:
     background: "--color-secondary"
     patterns:
-    rationales:
-      typefaces.primary: |
-        Quattrocento is a light, professial serif font with easy readibility.
-      typefaces.secondary : |
-        Pinyon Script is a beautiful script font that conveys eloquence and works well for short pieces of text like titles.
-      colors.primary : |
-        Black is the primary colour.
-      colors.secondary : |
-        White is the secondary colour.
-      color.primary.light : |
-        Grey is the light colour.
-      color.accent : |
-        The accent colour is red.
+  rationales:
+    typefaces.primary: |
+      Quattrocento is a light, professial serif font with easy readibility.
+    typefaces.secondary : |
+      Pinyon Script is a beautiful script font that conveys eloquence and works well for short pieces of text like titles.
+    colors.primary : |
+      Black is the primary colour.
+    colors.secondary : |
+      White is the secondary colour.
+    color.primary.light : |
+      Grey is the light colour.
+    color.accent : |
+      The accent colour is red.
+  layouts:
+    default: |
+      This is the layout on all pages to an extent.
