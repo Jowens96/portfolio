@@ -1,7 +1,3 @@
-.hiddenbox {
-  display: hidden;
-}
-
 .card {
   text-decoration: none;
   color: var(--colour-primary);
