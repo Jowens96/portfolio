@@ -3,42 +3,43 @@
   --color-primary-light: #949494;
   --color-secondary: #fff;
   --color-accent: #ff4551;
-  --font-primary: 'Quattrocento';
-  --font-secondary: 'Pinyon Script', cursive;
+  --font-primary: 'Quattrocento', serif;
+  --font-secondary: 'Quattrocento Sans', sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+  background-color: var(--colour-primary);
 }
 
 h1 {
   font-family: var(--font-secondary);
-  color: var(--colour-primary);
+  color: var(--color-secondary);
 }
 
 h2 {
   font-family: var(--font-secondary);
-  color: var(--colour-primary);
+  color: var(--color-secondary);
 }
 
 h3 {
   font-family: var(--font-secondary);
-  color: var(--colour-primary);
+  color: var(--color-secondary);
 }
 
 h4 {
   font-family: var(--font-secondary);
-  color: var(--colour-primary);
+  color: var(--color-secondary);
 }
 
 h5 {
   font-family: var(--font-secondary);
-  color: var(--colour-primary);
+  color: var(--color-secondary);
 }
 
 h6 {
   font-family: var(--font-secondary);
-  color: var(--colour-primary);
+  color: var(--color-secondary);
 }
 
 .skip-links {
@@ -46,40 +47,44 @@ h6 {
 }
 
 ul {
-  font-family: var(--font-primary);
-  color: var(--colour-primary);
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
   list-style-type: none;
 }
 
 ol {
   font-family: var(--font-primary);
-  color: var(--colour-primary);
+  color: var(--color-secondary);
 }
 
 li {
-  color: var(--colour-primary);
+  color: var(--color-secondary);
 }
 
 th {
-  color: var(--colour-primary);
+  color: var(--color-secondary);
 }
 
 tr {
-  color: var(--colour-primary);
+  color: var(--color-secondary);
 }
 
 dl {
-  font-family: var(--font-primary);
+  font-family: var(--color-secondary);
   font-weight: bold;
 }
 
 strong {
   font-weight: bold;
-  color: var(--colour-primary);
+  color: var(--color-secondary);
+}
+
+p {
+  color: var(--color-secondary);
 }
 
 footer {
-  color: var(--colour-primary);
+  color: var(--color-secondary);
 }
 
 /* h2 size is zetta */
