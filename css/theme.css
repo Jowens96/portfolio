@@ -24,7 +24,7 @@ h2 {
 
 h3 {
   font-family: var(--font-secondary);
-  color: var(--color-secondary);
+  color: var(--color-accent);
 }
 
 h4 {
