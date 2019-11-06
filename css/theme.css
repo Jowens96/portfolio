@@ -81,10 +81,21 @@ strong {
 
 p {
   color: var(--color-secondary);
+  font-family: var(--font-secondary);
 }
 
 /* h2 size is zetta */
 
 div > .icon {
   background-color: var(--color-accent);
+}
+
+.btn {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  transition: all .2s ease-in-out;
+}
+.btn:hover {
+  color: var(--color-secondary);
 }
