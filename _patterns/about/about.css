@@ -1,6 +1,7 @@
 /* About */
 .sm-links {
   text-decoration: none;
+  font-family: var(--font-secondary);
   color: var(--color-primary-light);
 }
 
