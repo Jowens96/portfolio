@@ -4,7 +4,16 @@
   padding-top: 56.25%%
 }
 
-.videooverlay {
+.black {
+  background-color: rgba(0, 0, 0, 0.59);
+  z-index: 3;
+  height: 101%;
+  width: 101%;
+}
+
+.btn:hover {
+  transition: all .2s;
+  transform: scale(0.9);
 }
 
 /* photo banner */
