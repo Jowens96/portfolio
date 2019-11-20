@@ -8,3 +8,8 @@
 .sm-links:hover {
   color: var(--color-accent);
 }
+
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
