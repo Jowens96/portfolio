@@ -15,11 +15,3 @@
   transition: all .2s;
   transform: scale(0.9);
 }
-
-/* photo banner */
-
-.photobanner {
-  position: relative;
-  max-height: 24em;
-  overflow: hidden;
-}
