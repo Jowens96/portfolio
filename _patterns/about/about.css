@@ -13,3 +13,7 @@ a {
   color: var(--color-secondary);
   text-decoration: none;
 }
+
+.about-text {
+  max-width: 25em;
+}
