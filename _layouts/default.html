@@ -2,22 +2,20 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Jenny Owens · Graphic & Motion Design · Ottawa, Canada</title>
-  <meta name="description" content="Jenny Owens' Graphic & Motion Portfolio">
+  <title>{{page.title}}</title>
+  <meta name="description" content="{{page.description}}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="/css/main.css" rel="stylesheet">
   <link rel="shortcut icon" href="/images/favicon.ico">
   <link rel="icon" type="img/png" href="/images/favicon.ico">
   <meta name="geo.region" content="ca-on">
   <meta name="geo.placename" content="Ottawa">
-  <meta property="og:title" content="Jenny Owens · Graphic & Motion Portfolio">
+  <meta property="og:title" content="{{page.title}}">
   <meta property="og:url" content="https://jennyowens.ca">
   <meta property="og:image" content="https://jennyowens.ca/images/about.jpg">
   <meta property="og:site_name" content="Jenny Owens">
-  <meta property="og:description" content="Jenny Owens' Portfolio">
+  <meta property="og:description" content="{{page.description}}">
   <meta property="og:locale" content="en_CA">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@jennyowens">
 </head>
 <body>
 
@@ -35,6 +33,33 @@
   </main>
 
 {% pattern footer/footer %}
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Jenny Owens",
+      "author": {
+        "@type": "Person",
+        "@id": "#jennyowens"
+      },
+      "description": "A motion design and graphics portfolio.",
+      "image": "/images/reel-logo.jpg",
+      "url": "https://www.jennyowens.ca",
+      "keywords": "Motion, Portfolio, Graphic Design, Ottawa Designer, Designer, Video"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "#jennyowens",
+      "name": "Jenny Owens",
+      "email": "jenny.anne.owens@gmail.com",
+      "url": "https://www.jennyowens.ca"
+    }
+  </script>
 
 </body>
 </html>
