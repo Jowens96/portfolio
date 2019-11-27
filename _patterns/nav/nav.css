@@ -11,8 +11,41 @@
   float: right;
 }
 
+.i-logo {
+  width: 32px;
+  height: 32px;
+}
+
 a:hover {
   color: var(--color-accent);
   transition: all .2s;
   transform: scale(0.9);
+}
+
+@media only screen and (min-width: 25em) {
+  .i-logo {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .i-logo {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .i-logo {
+    width: 52px;
+    height: 52px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .i-logo {
+    width: 62px;
+    height: 62px;
+  }
 }
