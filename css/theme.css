@@ -130,3 +130,20 @@ select:focus {
   outline: 3px solid #fff;
   outline-offset: 0;
 }
+
+/* 404 page */
+
+.textanimate {
+  animation-duration: 3s;
+  animation-name: fadein;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
