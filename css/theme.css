@@ -150,6 +150,10 @@ select:focus {
 
 /* 404*/
 
+.flametext {
+  padding-bottom: 15em;
+}
+
 #flame {
   position: fixed;
   z-index: -1;
