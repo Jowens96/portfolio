@@ -148,6 +148,8 @@ select:focus {
   }
 }
 
+/* 404*/
+
 .flame {
-  max-height: 300px;
+  max-width: 200px;
 }
