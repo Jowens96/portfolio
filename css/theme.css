@@ -150,6 +150,9 @@ select:focus {
 
 /* 404*/
 
-.flame {
-  max-width: 200px;
+#flame {
+  position: fixed;
+  z-index: -1;
+  max-width: 30%;
+  padding-top: 9em;
 }
