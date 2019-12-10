@@ -147,3 +147,7 @@ select:focus {
     opacity: 100%;
   }
 }
+
+.flame {
+  max-height: 300px;
+}
