@@ -148,15 +148,12 @@ select:focus {
   }
 }
 
-/* 404*/
-
 .flametext {
-  padding-bottom: 15em;
+  padding-bottom: 25em;
 }
 
-#flame {
-  position: fixed;
+.flame {
   z-index: -1;
   max-width: 30%;
-  padding-top: 9em;
+  padding-top: 18em;
 }
